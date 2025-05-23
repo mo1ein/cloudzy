@@ -40,7 +40,7 @@ GW1["gRPC / REST endpoints"]
 end
 
 %% Client connection
-Client["👤 Client"] -->|API Calls| GW1
+Client["👤 Client"] -->|rest| GW1
 GW1 -->|Responses| Client
 
 %% Existing connections
