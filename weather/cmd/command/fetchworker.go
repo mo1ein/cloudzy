@@ -70,8 +70,8 @@ func (cmd *Worker) main(ctx context.Context, cfg *config.Config) {
 			}
 			cmd.logger.Info().
 				Str("key", constant.RedisKey).
-				Float64("temp", data.Temperature).  // Assuming Temperature is float64
-				Float64("altitude", data.Altitude). // Assuming Altitude is int
+				Float64("temp", data.Temperature).
+				Float64("altitude", data.Altitude).
 				Str("forecast", data.Forecast).
 				Msg("updated weather hash")
 

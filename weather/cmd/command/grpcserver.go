@@ -56,8 +56,6 @@ func (cmd *GRPCServer) main(ctx context.Context, cfg *config.Config) {
 	trans := grpctransformes.New()
 	weatherSvc := getservice.New(&http.Client{}, *repo)
 	grpcHandler := grpchandlers.New(weatherSvc, trans)
-
-	// Wire up the gRPC server, passing in your zerolog.Logger
 	grpcServer := grpcapi.New(listener, grpcHandler, cmd.Logger)
 
 	cmd.Logger.Info().
