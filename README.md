@@ -52,14 +52,3 @@ docker-compose up --build
 - Use `make run-gateway`, `make run-weather`, `make run-pricing` to run services individually.
 
 ---
-
-## 📌 Why This Project?
-
-This project was designed as a **technical demonstration of scalable Go microservice design**. It highlights the use of:
-
-- Clear service boundaries
-- Shared contracts via protobuf
-- Production-grade reliability features (retries, logging)
-- Developer-first workflows using Makefile and Docker
-
----
