@@ -23,3 +23,5 @@ func (s *Server) SetupAPIRoutes(
 		v1.GET("/weather-status", handler.GetWeather)
 	}
 }
+
+// todo: handle middleware
