@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package weather;
+
+option go_package = "proto/gen;gen";
+
+service WeatherService {
+  rpc GetWeather (GetWeatherRequest) returns (GetWeatherResponse);
+  rpc GetPrice (GetPriceRequest) returns (GetPriceResponse);
+}
+
+message GetWeatherRequest {}
+
+message GetWeatherResponse {
+  string forecast = 1;
+  double temperature = 2;
+  double altitude = 3;
+}
+
+message GetPriceRequest {}
+
+message GetPriceResponse {
+  double price = 1;
+}
+
+
+
+
