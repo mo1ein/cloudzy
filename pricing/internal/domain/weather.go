@@ -5,8 +5,3 @@ type Weather struct {
 	Temperature float64
 	Altitude    float64
 }
-
-type Coordinates struct {
-	Latitude  float64
-	Longitude float64
-}
