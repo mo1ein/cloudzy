@@ -3,12 +3,11 @@ package rest
 import (
 	"context"
 	"fmt"
+	"github.com/gin-contrib/requestid"
+	"github.com/gin-gonic/gin"
 	"log"
 	"net/http"
 	"time"
-	//"reaction/internal/config"
-	"github.com/gin-contrib/requestid"
-	"github.com/gin-gonic/gin"
 )
 
 type Server struct {

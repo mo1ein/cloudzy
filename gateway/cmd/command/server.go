@@ -11,20 +11,18 @@ import (
 	"gateway/internal/service/weather"
 	"github.com/rs/zerolog"
 	"github.com/spf13/cobra"
-	"log"
 )
 
 type Server struct {
 	Logger zerolog.Logger
 }
 
-// todo: add logger here
-func (cmd *Server) Command(ctx context.Context, _ log.Logger, cfg *config.Config) *cobra.Command {
+func (cmd *Server) Command(ctx context.Context, logger zerolog.Logger, cfg *config.Config) *cobra.Command {
 	return &cobra.Command{
 		Use:   "server",
 		Short: "run gateway server",
 		Run: func(_ *cobra.Command, _ []string) {
-			//cmd.Logger = logger
+			cmd.Logger = logger
 			cmd.main(cfg, ctx)
 		},
 	}

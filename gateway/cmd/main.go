@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"gateway/cmd/command"
 	"gateway/internal/config"
+	"github.com/rs/zerolog"
 	"github.com/spf13/cobra"
 	"log"
 	"os/signal"
@@ -36,7 +37,7 @@ func main() {
 	//var grpc command.GRPCServer
 	root.AddCommand(
 		// todo: add logger here
-		serverCmd.Command(ctx, log.Logger{}, cfg),
+		serverCmd.Command(ctx, zerolog.Logger{}, cfg),
 		//mysqlCommand.Migrate{}.Command(ctx, &cfg.Database.MySQL),
 		//grpc.Command(ctx, loggerGRPC, cfg),
 	)

@@ -5,9 +5,9 @@ import (
 )
 
 // SetupAPIRoutes
-// @title           			Reaction Service
+// @title           			Gateway Service
 // @version         			1.0.0
-// @description     			This APIs return reaction entities
+// @description     			This APIs return gateway entities
 // @BasePath  					/
 // @Schemes 					https
 // @securityDefinitions.apikey	Bearer

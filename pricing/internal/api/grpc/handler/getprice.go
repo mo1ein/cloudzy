@@ -2,7 +2,7 @@ package grpchandlers
 
 import (
 	"context"
-	pb "pricing/proto/gen"
+	pb "github.com/mo1ein/cloudzy/proto/gen"
 )
 
 type pricingService interface {

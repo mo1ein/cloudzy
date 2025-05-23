@@ -1,4 +1,4 @@
-module github/mo1ein/abrnoc/proto
+module github.com/mo1ein/cloudzy/proto
 
 go 1.24.2
 
