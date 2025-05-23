@@ -62,31 +62,13 @@ PR --> PS1
 
 ## 🚀 Features
 
-✅ **Clean Architecture** – Separate layers for domain, service logic, and delivery to maximize testability and clarity  
-✅ **High-Performance gRPC** – Protobuf-based RPC with retry interceptors and backoff policies  
-✅ **Real-Time Processing** – Pricing calculations run every second against live weather data  
-✅ **Redis Caching & Pub/Sub** – Centralized in-memory store for sharing state and reducing external calls  
-✅ **Modular & Extensible** – Independently deployable services that can be extended or replaced  
-✅ **Dockerized with Healthchecks** – Container images, Compose files, and readiness probes for production readiness  
-✅ **Workflow Automation** – Makefile targets for proto generation, builds, up/down, and logs
-
----
-
-## 🚀 Features
-
-✅ **Clean Architecture** – Separates core domain, service logic, and delivery for maintainability and testability
-
-✅ **gRPC APIs** – High-performance communication between services using gRPC and Protobuf
-
-✅ **Modular Design** – Each service (weather, pricing, gateway) is independently runnable and deployable
-
-✅ **Retry Interceptors** – gRPC retry logic with exponential backoff
-
-✅ **Configurable & Extensible** – Easily adapt new services or extend current APIs
-
-✅ **Makefile Driven** – Streamlined build, lint, proto-generation, and dev workflow
-
-✅ **Dockerized** – Local development and deployment ready using `docker-compose`
+- **Clean Architecture** – Separate layers for domain, service logic, and delivery to maximize testability and clarity  
+- **High-Performance gRPC** – Protobuf-based RPC with retry interceptors and backoff policies  
+- **Real-Time Processing** – Pricing calculations run every second against live weather data  
+- **Redis Caching & Pub/Sub** – Centralized in-memory store for sharing state and reducing external calls  
+- **Modular & Extensible** – Independently deployable services that can be extended or replaced  
+- **Dockerized with Healthchecks** – Container images, Compose files, and readiness probes for production readiness  
+- **Workflow Automation** – Makefile targets for proto generation, builds, up/down, and logs
 
 ---
 
