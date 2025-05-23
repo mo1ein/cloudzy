@@ -88,14 +88,11 @@ cloudzy/
 
 ### 📦 Prerequisites
 
-- Docker & Docker Compose
-- `protoc` and `protoc-gen-go` / `protoc-gen-go-grpc`
-
 ### 🔧 Build & Run Locally
 
 ```bash
 # Generate gRPC code from proto
-make generate
+make install-plugins && make generate
 
 cd weather/deploy
 # Start all services with Docker Compose
