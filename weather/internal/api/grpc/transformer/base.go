@@ -1,8 +1,8 @@
 package grpctransformes
 
 import (
+	pb "github.com/mo1ein/cloudzy/proto/gen"
 	"weather/internal/domain"
-	pb "weather/proto/gen"
 )
 
 type Transformer struct {

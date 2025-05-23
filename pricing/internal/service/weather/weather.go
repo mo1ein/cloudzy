@@ -2,11 +2,11 @@ package weatherservice
 
 import (
 	"context"
+	pb "github.com/mo1ein/cloudzy/proto/gen"
 	"github.com/rs/zerolog"
 	"google.golang.org/grpc"
 	"pricing/internal/domain"
 	grpcadapter "pricing/internal/pkg"
-	pb "pricing/proto/gen"
 )
 
 type Service struct {

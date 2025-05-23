@@ -2,7 +2,6 @@ package pricing
 
 import (
 	"context"
-	//_ pb "gateway/proto/gen"
 	pb "github.com/mo1ein/cloudzy/proto/gen"
 	"google.golang.org/grpc"
 )

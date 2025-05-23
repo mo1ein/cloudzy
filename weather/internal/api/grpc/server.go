@@ -2,6 +2,7 @@ package grpcapi
 
 import (
 	"context"
+	pb "github.com/mo1ein/cloudzy/proto/gen"
 	"github.com/rs/zerolog"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
@@ -9,7 +10,6 @@ import (
 	"net"
 	"time"
 	grpchandlers "weather/internal/api/grpc/handler"
-	pb "weather/proto/gen"
 )
 
 const (

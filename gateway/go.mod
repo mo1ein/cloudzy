@@ -6,7 +6,7 @@ require (
 	github.com/gin-contrib/requestid v1.0.5
 	github.com/gin-gonic/gin v1.10.1
 	github.com/grpc-ecosystem/go-grpc-middleware/v2 v2.3.2
-	github.com/mo1ein/cloudzy/proto v0.0.1
+	github.com/mo1ein/cloudzy/proto v0.0.2
 	github.com/rs/zerolog v1.34.0
 	github.com/spf13/cobra v1.9.1
 	github.com/spf13/viper v1.20.1

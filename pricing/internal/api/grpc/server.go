@@ -2,13 +2,13 @@ package grpcapi
 
 import (
 	"context"
+	pb "github.com/mo1ein/cloudzy/proto/gen"
 	"github.com/rs/zerolog"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/keepalive"
 	"net"
 	grpchandlers "pricing/internal/api/grpc/handler"
-	pb "pricing/proto/gen"
 	"time"
 )
 

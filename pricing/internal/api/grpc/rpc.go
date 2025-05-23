@@ -2,7 +2,7 @@ package grpcapi
 
 import (
 	"context"
-	pb "pricing/proto/gen"
+	pb "github.com/mo1ein/cloudzy/proto/gen"
 )
 
 func (s *Server) GetPrice(ctx context.Context, req *pb.GetPriceRequest) (*pb.GetPriceResponse, error) {

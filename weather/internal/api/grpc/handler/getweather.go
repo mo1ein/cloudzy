@@ -2,9 +2,9 @@ package grpchandlers
 
 import (
 	"context"
+	pb "github.com/mo1ein/cloudzy/proto/gen"
 	grpctransformes "weather/internal/api/grpc/transformer"
 	"weather/internal/domain"
-	pb "weather/proto/gen"
 )
 
 type weatherService interface {
