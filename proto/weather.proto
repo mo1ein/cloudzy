@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package weather;
 
-option go_package = "proto/gen;gen";
+option go_package = "github.com/mo1ein/cloudzy/proto/gen;gen";
 
 service WeatherService {
   rpc GetWeather (GetWeatherRequest) returns (GetWeatherResponse);
