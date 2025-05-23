@@ -1,4 +1,4 @@
-# 🌤️ Cloudzy – Scalable Microservices Weather & Pricing Platform
+# 🌤️ Cloudzy<br>Scalable Microservices Weather & Pricing Platform
 
 This is a solution to the following task: 
 
